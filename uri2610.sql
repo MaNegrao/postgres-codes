@@ -3,6 +3,8 @@
 --- www.urionlinejudge.com.br
 --- Problem 2610
 
+select round(avg(price), 2) from products;
+
 CREATE TABLE products (
     id NUMERIC PRIMARY KEY,
     name VARCHAR,
