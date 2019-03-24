@@ -1,4 +1,4 @@
-
+select m.id, m.name from movies m join prices p on m.id_prices = p.id where p.value < 2;
 
 --- URI Online Judge SQL
 --- Copyright URI Online Judge
@@ -32,7 +32,7 @@ VALUES
   (2,	'The Battle of the Dark River',	3),
   (3,	'White Duck',	5),
   (4,	'Breaking Barriers',	4),
-  (5,	'The Two Hours',	2);
+  (5,	'The Two Hours',	2);  
   
   /*  Execute this query to drop the tables */
   -- DROP TABLE movies, prices; --
